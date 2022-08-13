@@ -1,8 +1,11 @@
 import React from 'react'
+import './VideoFooter.css'
 
 function VideoFooter() {
   return (
-    <h2>I am a footer</h2>
+    <div className="videoFooter">
+        <h2>I am a footer</h2>
+    </div>
   )
 }
 

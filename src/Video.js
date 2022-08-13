@@ -24,7 +24,7 @@ function Video() {
         onClick={onVideoPress}
         ref={videoRef}
         controls
-        src="https://v16-webapp.tiktok.com/35ca7e969d05916d3a637dcdc721ccb0/62f3de44/video/tos/useast2a/tos-useast2a-pve-0068/83e11de2103245dbbbf692d1a7cd75ab/?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C1%7C0&cv=1&br=3180&bt=1590&btag=80000&cs=0&ds=3&ft=eXd.6HKSMyq8ZRAO_we2N1_Aol7Gb&mime_type=video_mp4&qs=0&rc=OzgzOzZmNzM1OGQ1N2Y3NUBpM3Brczd3b2c0eDMzOjczM0A0MDRjM2ExXjExXjEzNmJiYSNhai5iLWhvNGlfLS01MTZzcw%3D%3D&l=2022081010345001021702913505023F3C"></video>
+        src="https://v16-webapp.tiktok.com/6c2829cd322e6808594403dac5c9e5ef/62f7ce16/video/tos/alisg/tos-alisg-pve-0037c001/fecd465dcecc43d4847e84a0455be1a6/?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C1%7C0&cv=1&br=5166&bt=2583&cs=0&ds=3&ft=eXd.6HKSMyq8Zp2lHwe2NkFTyl7Gb&mime_type=video_mp4&qs=0&rc=NDc4N2RmMzk5PDc7aGQ7aUBpandldjU6Zm88ZDMzODczNEAyM2AxYjQzNmAxMTFfYDBhYSNoNmEucjRvX3BgLS1kMS1zcw%3D%3D&l=202208131014190102231230142040FB17&btag=80000"></video>
         <VideoFooter />
         {/* <VideoSidebar /> */}
     </div>
