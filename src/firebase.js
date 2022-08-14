@@ -12,9 +12,9 @@ const firebaseConfig = {
     measurementId: "G-CX38HDC42F"
   };
 
-  const firebaseApp = 
-  firebase.initializeApp(firebaseConfig);
+const firebaseApp = 
+firebase.initializeApp(firebaseConfig);
 
-  const db = firebaseApp.firestore();
+const db = firebaseApp.firestore();
 
   export default db;
