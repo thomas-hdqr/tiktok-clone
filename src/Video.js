@@ -24,7 +24,8 @@ function Video({ url, channel, description, song, likes, messages, shares}) {
         loop
         onClick={onVideoPress}
         ref={videoRef}
-        src={url}></video>
+        src={url}>
+        </video>
         <VideoFooter channel={channel} description={description} song={song} />
         <VideoSidebar likes= {likes} messages={messages} shares={shares}/>
     </div>
@@ -32,3 +33,4 @@ function Video({ url, channel, description, song, likes, messages, shares}) {
 }
 
 export default Video
+
