@@ -4,7 +4,7 @@ html {
 
 .App {
     height: 100vh;
-    background-color: black;
+    background-color: white;
     display: grid;
     place-items: center;
 }
