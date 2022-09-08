@@ -1,7 +1,10 @@
-Building a clone of TikTok with ReactJS and Firebase;
+Building a clone of TikTok with ReactJS;
 
-Tutorial found on Youtube, thanks to the great channel Clever Programmer
+Next tasks:
+- add minify to compress number in k and m
+- fix the likes button (currently add 1 next to number of likes)
+- fix the song text
+- add an autoplay with song? 
+- change the site title
+- deploy on firebase
 
-link: https://www.youtube.com/watch?v=GePLvNgWROg&t=9263s&ab_channel=CleverProgrammer
-
-fixing some issues with firebase 
