@@ -1,6 +1,7 @@
 import './App.css';
 import Video from './Video'
 import { coding, lisbon, bjj, biking, pizza } from './videos'
+import millify from 'millify'; 
 
 function App() {
 
@@ -12,45 +13,45 @@ function App() {
             channel="thecleverprogrammer"
             description="This is the reality of my life... #programmer #programming #coding #code #coder #softwareengineer #computerscience #tiktoktrend #developer #codinglife"
             song="Cursed renegade - AVE"
-            likes="29842"
-            messages="239"
-            shares="231"
+            likes={millify(1263293)}
+            message={millify(239)}
+            share={millify(231)}
             />
             <Video
             url={lisbon}
             channel="wheretofindme"
             description="if you’re planning a trip to Portugal, this fairytale location is a must visit! #sintra #portugaltiktok #tiktokportugal #lisbon"
             song="Une barque sur l'océan from Miroirs - Andre Laplante"
-            likes="204882"
-            messages="298"
-            shares="238"
+            like={millify(20254882)}
+            message={millify(298)}
+            share={millify(238)}
             />
             <Video
             url={bjj}
             channel="smittywit"
             description="This Is What Makes Jiu-Jitsu Fun"
             song="Piano Lofi Hiphop(1087796) - KEYAG"
-            likes="345632"
-            messages="3167"
-            shares="626"
+            like={millify(345632)}
+            message={millify(3167)}
+            share={millify(626)}
             />
             <Video
             url={biking}
             channel="cycleclub1"
             description="It's too crazy#bike #foryou #sports #fyp #crazy #cycling #mountainbike"
             song="original sound - Cycling Club"
-            likes="234737"
-            messages="1533"
-            shares="1241"
+            like={millify(234737)}
+            messages={millify(1533)}
+            shares={millify(1241)}
             />
             <Video
             url={pizza}
             channel="aureliovisciotti"
             description="La pizza Italy…🇮🇹 #pizzatime #pizza #pizzanapoletana #felicità"
             song="suono originale - Aurelio Visciotti"
-            likes="302000"
-            messages="2550"
-            shares="2500"
+            likes={millify(302000)}
+            messages={millify(2550)}
+            shares={millify(2500)}
             />
       </div>
     </div>
