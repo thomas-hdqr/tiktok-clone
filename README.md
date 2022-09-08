@@ -1,7 +1,6 @@
 Building a clone of TikTok with React.js
 
 Next tasks:
-- add minify to compress number in k and m
 - fix the likes button (currently add 1 next to number of likes)
 - add an autoplay with song? 
 - create a local database and map all the data
